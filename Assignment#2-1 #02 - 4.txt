@@ -1,0 +1,10 @@
+def cen_to_in(cm):
+    inch = round(2.54 * cm, 2)
+    return inch
+
+def in_to_cen(inch):
+    cm = round((1 / 2.54) * inch, 2)
+    return cm
+
+print("31.48센티미터는 " + str(cen_to_in(31.48)) + "인치입니다.")
+print("21.71인치는 " + str(in_to_cen(21.71)) + "센티미터입니다.")
